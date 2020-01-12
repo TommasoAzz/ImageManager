@@ -138,7 +138,7 @@ class ImageManager {
      */
     private function verifyFilePresence() {
         if (strlen($this->targetFileExtension) === 0 || strlen($this->targetFileName) === 0) {
-            throw new Exception("Non è stato ancora selezionato un file immagine.");
+            throw new Exception("No file has been set.");
         }
     }
 
